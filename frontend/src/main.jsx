@@ -7,9 +7,11 @@ import HomeView from './views/HomeView.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<HomeView />}></Route>
-      </Routes>
+      <div style={{background: 'var(--dark)', color: 'var(--light)'}}>
+        <Routes>
+          <Route path='/' element={<HomeView />}></Route>
+        </Routes>
+      </div>
     </BrowserRouter>
   </StrictMode>,
 )
