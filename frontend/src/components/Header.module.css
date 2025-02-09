@@ -1,0 +1,8 @@
+.active-link {
+  border-bottom: 2px solid var(--light);
+}
+
+.nav-button {
+  display: block;
+  padding: 1rem 1.5rem;
+}
